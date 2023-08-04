@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(91, 24, 153);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .counter_container{
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin : 6vw;
+            min-width: 20%;
+        }
+        .counter_container span{
+            border: none;
+            margin-top: 25px;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: white;        }
+        .counter{
+            border: none;
+            margin-top: 25px;
+            font-size: 3em;
+            color : rgba(202, 199, 12, 0.788);
+        }
+        i{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="counter_container">
+        <i class="fa-solid fa-mug-hot fa-4x"></i>
+        <div class="counter" data-target="4000"></div>
+        <span>Project Completed</span>
+        </div>
+    <div class="counter_container">
+        <i class="fa-solid fa-users fa-4x"></i>
+        <div class="counter" data-target="15000"></div>
+        <span>Our Happy Client</span>
+        </div>
+    <div class="counter_container">
+        <i class="fa-solid fa-tasks fa-4x"></i>
+        <div class="counter" data-target="500"></div>
+        <span>OnGoing Projects</span>
+    </div>
+
+    <script src="index.js">
+
+    </script>
+
+
+</body>
+
+</html>
